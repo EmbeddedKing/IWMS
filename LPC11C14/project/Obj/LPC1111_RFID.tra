@@ -1,0 +1,27 @@
+*** Creating Trace Output File '.\Obj\LPC1111_RFID.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_lpc11xx.o"'
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_lpc11xx.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\retarget.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '".\obj\ssp.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\rc522.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\startup_lpc11xx.o" ".\obj\core_cm0.o" ".\obj\system_lpc11xx.o" ".\obj\uart.o" ".\obj\retarget.o" ".\obj\gpio.o" ".\obj\ssp.o" ".\obj\main.o" ".\obj\rc522.o" --library_type=microlib --strict --scatter ".\Obj\LPC1111_RFID.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\LPC1111_RFID.map" -o .\Obj\LPC1111_RFID.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\LPC1111_RFID.axf'
+### ADS-LD Command File: '.\Obj\LPC1111_RFID.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\LPC1111_RFID.lnp', Handle=0x00000868
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\LPC1111_RFID.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

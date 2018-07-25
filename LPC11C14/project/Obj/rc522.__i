@@ -1,0 +1,1 @@
+-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\Common\inc -I..\inc -I "I:\Program Files (x86)\Kile4\ARM\RV31\Inc" -I "I:\Program Files (x86)\Kile4\ARM\CMSIS\Include" -I "I:\Program Files (x86)\Kile4\ARM\Inc\NXP\LPC11xx" -D__DEBUG_FLASH -o ".\Obj\rc522.o" --omf_browse ".\Obj\rc522.crf" --depend ".\Obj\rc522.d" "..\src\RC522.c"

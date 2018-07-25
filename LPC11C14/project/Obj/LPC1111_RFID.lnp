@@ -1,0 +1,4 @@
+--cpu Cortex-M0 ".\obj\startup_lpc11xx.o" ".\obj\core_cm0.o" ".\obj\system_lpc11xx.o" ".\obj\uart.o" ".\obj\retarget.o" ".\obj\gpio.o" ".\obj\ssp.o" ".\obj\main.o" ".\obj\rc522.o" --library_type=microlib --strict --scatter ".\Obj\LPC1111_RFID.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\LPC1111_RFID.map" -o .\Obj\LPC1111_RFID.axf
