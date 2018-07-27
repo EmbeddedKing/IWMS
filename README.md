@@ -36,3 +36,16 @@
 >     数据中心在发送控制包给数据采集节点，
 >     数据节点操控硬件，达到远程控制的目的，也可发送获取仓库信息的控制包来获取仓库信息。上位机也可以设置温湿度的上限和下限，
 >     当仓库温度和湿度超过上限或低于下限会通过GPRS模块向指定的手机号发送报警信息并打开报警器。
+
+## 图片展示
+>     Qt上位机面板展示
+![Image text](./Image/qt.png)
+>     摄像头模块
+![Image text](./Image/video.png)
+>     数据采集节点
+![Image text](./Image/data_node.png)
+>     开启程序
+![Image text](./Image/start1.png)
+![Image text](./Image/start.png)
+>     上位机总览
+![Image text](./Image/gui.png)
